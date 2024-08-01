@@ -1,9 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import 'ngx-toastr/toastr';
+
 body {
     padding-top: 56px;
   }
 
+/* Ejemplo de personalización de colores para toastr */
+.custom-toastr-success {
+  background-color: #28a745 !important; /* Verde, como ejemplo */
+  color: #fff !important;
+}
+
+.custom-toastr-error {
+  background-color: #dc3545 !important; /* Rojo, como ejemplo */
+  color: #fff !important;
+}
+
+/* Personaliza otros estados si es necesario */
 
 
  .product-box img {

@@ -31,7 +31,7 @@
                       <td>{{p.name}}</td>
                       <td>{{p.description}}</td>
                       <td>{{p.price}}</td>
-                      <td><button class="btn btn-warning">Editar</button> </td>
+                      <td><button class="btn btn-warning" [routerLink]="['/admin/product/update',p.id]">Editar</button> </td>
                       <td><button class="btn btn-danger" (click)="deleteProductById(p.id)">Eliminar</button>
                   </tr>
               </tbody>
